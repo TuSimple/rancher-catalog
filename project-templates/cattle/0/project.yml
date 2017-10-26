@@ -2,10 +2,10 @@ name: Cattle
 description: Default Cattle template
 stacks:
   - name: network-services
-    templateId: 'library:infra*network-services'
+    templateId: 'tulibrary:infra*network-services'
   - name: ipsec
-    templateId: 'library:infra*ipsec'
+    templateId: 'tulibrary:infra*ipsec'
   - name: scheduler
-    templateId: 'tu-library:infra*scheduler'
+    templateId: 'tulibrary:infra*scheduler'
   - name: healthcheck
-    templateId: 'library:infra*healthcheck'
+    templateId: 'tulibrary:infra*healthcheck'
