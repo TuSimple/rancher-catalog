@@ -1,8 +1,10 @@
 version: '2'
 services:
   scheduler:
-    image: rancher/scheduler:v0.4.0
-    command: scheduler
+    image: registry.bj.tusimple.ai:5043/service/scheduler:latest
+    command: scheduler --metadata-address 169.254.169.250
+    environment:
+        RANCHER_DEBUG: '${RANCHER_DEBUG}'
     labels:
         io.rancher.container.create_agent: "true"
         io.rancher.container.agent_service.scheduling: "true"

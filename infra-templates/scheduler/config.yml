@@ -1,8 +1,8 @@
 name: Scheduler
-version: v0.6.3
+version: latest
 category: Framework
-description: A resource based scheduler plugin for Rancher.
-projectURL: https://github.com/rancher/scheduler
+description: Tusimple scheduler plugin for Rancher.
+projectURL: https://github.com/TuSimple/scheduler
 labels:
   io.rancher.certified: rancher
   io.rancher.orchestration.supported: 'cattle,mesos,swarm,kubernetes'
